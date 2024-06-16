@@ -1,8 +1,9 @@
 ﻿using Zad10CodeFirst.Entities;
+using Zad10CodeFirst.ModelsDTO;
 
 namespace Zad10CodeFirst.Services;
 
-public interface PatientService
+public interface IPatientService
 {
-    public Task<Patient> GetPatientData(int id);
+    public Task<PatientAllDataDto> GetPatientData(int id);
 }

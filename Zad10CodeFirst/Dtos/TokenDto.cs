@@ -2,5 +2,5 @@
 
 public class TokenDto
 {
-    public string email { get; set; }
+    public string RefreshToken { get; set; }
 }

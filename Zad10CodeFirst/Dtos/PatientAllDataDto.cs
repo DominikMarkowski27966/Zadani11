@@ -9,4 +9,5 @@ public class PatientAllDataDto
     public string LastName { get; set; }
     public DateTime BirthDay { get; set; }
     public virtual List<Prescription> Prescriptions { get; set; }
+    
 }
